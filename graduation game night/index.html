@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Trivia Game</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <div id="scoreboard">
+        <h2>Team Scores</h2>
+        <div style="display: flex; align-items: center; margin: auto; padding-left: 8px;">
+        <div id="team1">Team 1: 
+            <button onclick="addPoints()">+</button>
+        </div>
+        <div id="team2">Team 2: 
+            <button onclick="addPoints()">+</button>
+        </div>
+    </div>
+    </div>
+
+    
+    <div id="game-board">
+
+       <!-- category 1 -->
+        <div class="category">
+            <h2>معلومات عامة</h2>
+            <div style="background-color: #219ebc; font-size: 28px; font-weight: bold;" class="question-box" data-category="topic1" data-value="100"><button style="background-color: #219ebc; font-size: 28px; font-weight: bold; height:80px; width: 140;">100</button></div>
+            <div style="background-color: #e63946; font-size: 28px; font-weight: bold;" class="question-box" data-category="topic1" data-value="200">200</div>
+            <div style="background-color: #ffd60a; font-size: 28px; font-weight: bold;" class="question-box" data-category="topic1" data-value="300">300</div>
+            <div style="background-color: #219ebc; font-size: 28px; font-weight: bold;" class="question-box" data-category="topic1" data-value="400">400</div>
+            <div style="background-color: #e63946; font-size: 28px; font-weight: bold;" class="question-box" data-category="topic1" data-value="500">500</div>
+        </div>
+
+        <!-- category 2 -->
+        <div class="category">
+            <h2>شخصية مشهورة</h2>
+            <div style="background-color: #219ebc; font-size: 28px; font-weight: bold;" class="question-box" data-category="topic1" data-value="100">100</div>
+            <div style="background-color: #e63946; font-size: 28px; font-weight: bold;" class="question-box" data-category="topic1" data-value="200">200</div>
+            <div style="background-color: #ffd60a; font-size: 28px; font-weight: bold;" class="question-box" data-category="topic1" data-value="300">300</div>
+            <div style="background-color: #219ebc; font-size: 28px; font-weight: bold;" class="question-box" data-category="topic1" data-value="400">400</div>
+            <div style="background-color: #e63946; font-size: 28px; font-weight: bold;" class="question-box" data-category="topic1" data-value="500">500</div>
+        </div>
+
+
+        <!-- category 3 -->
+        <div class="category">
+            <h2>علامات تجارية</h2>
+            <div style="background-color: #219ebc; font-size: 28px; font-weight: bold;" class="question-box" data-category="topic1" data-value="100">100</div>
+            <div style="background-color: #e63946; font-size: 28px; font-weight: bold;" class="question-box" data-category="topic1" data-value="200">200</div>
+            <div style="background-color: #ffd60a; font-size: 28px; font-weight: bold;" class="question-box" data-category="topic1" data-value="300">300</div>
+            <div style="background-color: #219ebc; font-size: 28px; font-weight: bold;" class="question-box" data-category="topic1" data-value="400">400</div>
+            <div style="background-color: #e63946; font-size: 28px; font-weight: bold;" class="question-box" data-category="topic1" data-value="500">500</div>
+        </div>
+
+
+        <!-- category 4 -->
+        <div class="category">
+            <h2>فن عربي</h2>
+            <div style="background-color: #219ebc; font-size: 28px; font-weight: bold;" class="question-box" data-category="topic1" data-value="100">100</div>
+            <div  style="background-color:#e63946; font-size: 28px; font-weight: bold;" class="question-box" data-category="topic1" data-value="200">200</div>
+            <div style="background-color: #ffd60a; font-size: 28px; font-weight: bold;" class="question-box" data-category="topic1" data-value="300">300</div>
+            <div style="background-color: #219ebc; font-size: 28px; font-weight: bold;" class="question-box" data-category="topic1" data-value="400">400</div>
+            <div style="background-color: #e63946; font-size: 28px; font-weight: bold;" class="question-box" data-category="topic1" data-value="500">500</div>
+        </div>
+
+        <!-- category 5 -->
+        <div class="category">
+            <h2>بنات شرول</h2>
+            <div style="background-color: #219ebc; font-size: 28px; font-weight: bold;" class="question-box" data-category="topic1" data-value="100">100</div>
+            <div style="background-color: #e63946; font-size: 28px; font-weight: bold;" class="question-box" data-category="topic1" data-value="200">200</div>
+            <div style="background-color: #ffd60a; font-size: 28px; font-weight: bold;" class="question-box" data-category="topic1" data-value="300">300</div>
+            <div style="background-color: #219ebc; font-size: 28px; font-weight: bold;" class="question-box" data-category="topic1" data-value="400">400</div>
+            <div style="background-color: #e63946; font-size: 28px; font-weight: bold;"class="question-box" data-category="topic1" data-value="500">500</div>
+        </div>
+
+        </div>
+
+       
+        <script src="script.js"></script>
+</body>
+</html>

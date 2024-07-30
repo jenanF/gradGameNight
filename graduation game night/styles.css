@@ -1,0 +1,69 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    /*background-image: url('assests/IMG_6700.jpg'); */
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#game-board {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 10px;
+}
+
+.category {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.category h2 {
+    margin-bottom: 10px;
+}
+
+.question-box {
+    width: 150px;
+    height: 80px;
+    margin-bottom: 15px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+h2{
+    color: black;
+    font-size: 30;
+    border-color: black;
+    background-color: white;
+    padding: 5px;
+    
+
+}
+
+#scoreboard{
+
+    display: grid;
+}
+
+#team1{
+
+    background-color: #a8dadc;
+    padding: 7px;
+    margin-left: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#team2{
+
+    background-color: #a8dadc;
+    padding: 7px;
+    margin-left: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
